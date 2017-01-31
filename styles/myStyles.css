@@ -1,0 +1,32 @@
+#wheel{
+	height: 600px;
+	width: 600px;
+}
+#buttons{
+	width: 300px;
+	height: 210px;
+	border: 3px solid #444;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+
+}
+.button{
+	height: 70px;
+	background-color: #EEE;
+	color: #444;
+	width: 300px;
+	font-size: 28px;
+	font-family: helvetica;
+	text-transform: uppercase;
+	line-height: 70px;
+	cursor: pointer;
+}
+.button:hover{
+	background-color: #444;
+	color: #EEE
+}
+.button:active{
+	background-color: #555;
+	color: yellow;
+}
