@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="styles/myStyles.css">
-</head>
-<body>
-	<div id="wheel">
-
-	<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 685.4 685" style="enable-background:new 0 0 685.4 685;" xml:space="preserve">
@@ -305,16 +295,3 @@
 		c-0.3-0.1-0.6,0-0.8,0.2c-0.9,0.7-3.3,2.1-4.9-0.9C621.8,337.7,621.8,337.6,621.8,337.4z"/>
 </g>
 </svg>
-
-	</div>
-
-	<div id="buttons">
-		<div id="pribtn" class="button">PRIMARY</div>
-		<div id="secbtn" class="button">SECONDARY</div>
-		<div id="terbtn" class="button">TERTIARY</div>
-	</div>
-
-	<script src="scripts/jquery.js"></script>
-	<script src="scripts/main.js"></script>
-</body>
-</html>
