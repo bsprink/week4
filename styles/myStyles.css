@@ -1,33 +1,155 @@
+.st0{fill:#662D91;}
+.st1{fill:#9E005D;}
+.st2{fill:#FF0000;}
+.st3{fill:#F15A24;}
+.st4{fill:#F7931E;}
+.st5{fill:#FBB03B;}
+.st6{fill:#FFFF00;}
+.st7{fill:#8CC63F;}
+.st8{fill:#009245;}
+.st9{fill:#00A99D;}
+.st10{fill:#0000FF;}
+.st11{fill:#1B1464;}
+
 #wheel{
 	height: 600px;
 	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
 }
 #buttons{
-	width: 300px;
-	height: 210px;
-	border: 3px solid #444;
 	position: absolute;
-	right: 20px;
+	left: 20px;
 	top: 20px;
-	text-align: center;
-
 }
-.button{
-	height: 70px;
+#pribtn{
+	border-radius: 100px;
+	height: 150px;
 	background-color: #EEE;
 	color: #444;
-	width: 300px;
-	font-size: 28px;
+	width: 150px;
+	text-align: center;
+	font-size: 18px;
 	font-family: helvetica;
 	text-transform: uppercase;
-	line-height: 70px;
+	line-height: 150px;
 	cursor: pointer;
 }
-.button:hover{
+#pribtn:hover{
 	background-color: #444;
 	color: #EEE
 }
-.button:active{
+#pribtn:active{
+	background-color: #555;
+	color: yellow;
+}
+#secbtn{
+	border-radius: 100px;
+	height: 150px;
+	background-color: #EEE;
+	color: #444;
+	width: 150px;
+	text-align: center;
+	font-size: 18px;
+	font-family: helvetica;
+	text-transform: uppercase;
+	line-height: 150px;
+	cursor: pointer;
+}
+#secbtn:hover{
+	background-color: #444;
+	color: #EEE
+}
+#secbtn:active{
+	background-color: #555;
+	color: yellow;
+}
+#terbtn{
+	border-radius: 100px;
+	height: 150px;
+	background-color: #EEE;
+	color: #444;
+	width: 150px;
+	text-align: center;
+	font-size: 18px;
+	font-family: helvetica;
+	text-transform: uppercase;
+	line-height: 150px;
+	cursor: pointer;
+}
+#terbtn:hover{
+	background-color: #444;
+	color: #EEE
+}
+#terbtn:active{
+	background-color: #555;
+	color: yellow;
+}
+#moreButtons{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+#compbtn{
+	border-radius: 100px;
+	height: 150px;
+	background-color: #EEE;
+	color: #444;
+	width: 150px;
+	text-align: center;
+	font-size: 18px;
+	font-family: helvetica;
+	text-transform: uppercase;
+	line-height: 150px;
+	cursor: pointer;
+}
+#compbtn:hover{
+	background-color: #444;
+	color: #EEE
+}
+#compbtn:active{
+	background-color: #555;
+	color: yellow;
+}
+#tribtn{
+	border-radius: 100px;
+	height: 150px;
+	background-color: #EEE;
+	color: #444;
+	width: 150px;
+	text-align: center;
+	font-size: 18px;
+	font-family: helvetica;
+	text-transform: uppercase;
+	line-height: 150px;
+	cursor: pointer;
+}
+#tribtn:hover{
+	background-color: #444;
+	color: #EEE
+}
+#tribtn:active{
+	background-color: #555;
+	color: yellow;
+}
+#anabtn{
+	border-radius: 100px;
+	height: 150px;
+	background-color: #EEE;
+	color: #444;
+	width: 150px;
+	text-align: center;
+	font-size: 18px;
+	font-family: helvetica;
+	text-transform: uppercase;
+	line-height: 150px;
+	cursor: pointer;
+}
+#anabtn:hover{
+	background-color: #444;
+	color: #EEE
+}
+#anabtn:active{
 	background-color: #555;
 	color: yellow;
 }
