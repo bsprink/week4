@@ -6,6 +6,9 @@
 	//$("#blueViolet").css("fill","blueViolet");
 //});
 var selectedColor;
+$("resetBtn").click(function(){
+	location.reload()
+});
 
 $("#pribtn").click(function(){
 	$("#wheelSVG path").css("opacity",".1");
@@ -242,6 +245,246 @@ $("#tribtn").click(function(){
 		$("#redViolet").css("opacity","1");
 		$("#blueGreen").css("opacity","1");
 		$("#yellowOrange").css("opacity","1");
+	}	
+});
+$("#anabtn").click(function(){
+	if(selectedColor == "rv"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#redViolet").css("opacity","1");
+		$("#red").css("opacity","1");
+		$("#redOrange").css("opacity","1");
+	}
+	else if (selectedColor == "r"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#redViolet").css("opacity","1");
+		$("#red").css("opacity","1");
+		$("#redOrange").css("opacity","1");
+	}	
+	else if (selectedColor == "ro"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#redViolet").css("opacity","1");
+		$("#red").css("opacity","1");
+		$("#redOrange").css("opacity","1");;
+	}	
+});
+$("#anabtn").click(function(){
+	if(selectedColor == "r"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#orange").css("opacity","1");
+		$("#red").css("opacity","1");
+		$("#redOrange").css("opacity","1");
+	}
+	else if (selectedColor == "o"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#orange").css("opacity","1");
+		$("#red").css("opacity","1");
+		$("#redOrange").css("opacity","1");
+	}	
+	else if (selectedColor == "ro"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#orange").css("opacity","1");
+		$("#red").css("opacity","1");
+		$("#redOrange").css("opacity","1");;
+	}	
+});
+$("#anabtn").click(function(){
+	if(selectedColor == "ro"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#orange").css("opacity","1");
+		$("#yellowOrange").css("opacity","1");
+		$("#redOrange").css("opacity","1");
+	}
+	else if (selectedColor == "o"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#orange").css("opacity","1");
+		$("#yellowOrange").css("opacity","1");
+		$("#redOrange").css("opacity","1");
+	}	
+	else if (selectedColor == "yo"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#orange").css("opacity","1");
+		$("#yellowOrange").css("opacity","1");
+		$("#redOrange").css("opacity","1");;
+	}	
+});
+$("#anabtn").click(function(){
+	if(selectedColor == "o"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#orange").css("opacity","1");
+		$("#yellowOrange").css("opacity","1");
+		$("#yellow").css("opacity","1");
+	}
+	else if (selectedColor == "y"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#orange").css("opacity","1");
+		$("#yellowOrange").css("opacity","1");
+		$("#yellow").css("opacity","1");
+	}	
+	else if (selectedColor == "yo"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#orange").css("opacity","1");
+		$("#yellowOrange").css("opacity","1");
+		$("#yellow").css("opacity","1");;
+	}	
+});
+$("#anabtn").click(function(){
+	if(selectedColor == "yo"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#yellowGreen").css("opacity","1");
+		$("#yellowOrange").css("opacity","1");
+		$("#yellow").css("opacity","1");
+	}
+	else if (selectedColor == "y"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#yellowGreen").css("opacity","1");
+		$("#yellowOrange").css("opacity","1");
+		$("#yellow").css("opacity","1");
+	}	
+	else if (selectedColor == "yg"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#yellowGreen").css("opacity","1");
+		$("#yellowOrange").css("opacity","1");
+		$("#yellow").css("opacity","1");;
+	}	
+});
+$("#anabtn").click(function(){
+	if(selectedColor == "y"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#yellowGreen").css("opacity","1");
+		$("#green").css("opacity","1");
+		$("#yellow").css("opacity","1");
+	}
+	else if (selectedColor == "g"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#yellowGreen").css("opacity","1");
+		$("#green").css("opacity","1");
+		$("#yellow").css("opacity","1");
+	}	
+	else if (selectedColor == "yg"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#yellowGreen").css("opacity","1");
+		$("#green").css("opacity","1");
+		$("#yellow").css("opacity","1");;
+	}	
+});
+$("#anabtn").click(function(){
+	if(selectedColor == "yg"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#yellowGreen").css("opacity","1");
+		$("#green").css("opacity","1");
+		$("#blueGreen").css("opacity","1");
+	}
+	else if (selectedColor == "g"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#yellowGreen").css("opacity","1");
+		$("#green").css("opacity","1");
+		$("#blueGreen").css("opacity","1");
+	}	
+	else if (selectedColor == "bg"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#yellowGreen").css("opacity","1");
+		$("#green").css("opacity","1");
+		$("#blueGreen").css("opacity","1");;
+	}	
+});
+$("#anabtn").click(function(){
+	if(selectedColor == "g"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#green").css("opacity","1");
+		$("#blueGreen").css("opacity","1");
+		$("#blue").css("opacity","1");
+	}
+	else if (selectedColor == "b"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#green").css("opacity","1");
+		$("#blueGreen").css("opacity","1");
+		$("#blue").css("opacity","1");
+	}	
+	else if (selectedColor == "bg"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#green").css("opacity","1");
+		$("#blueGreen").css("opacity","1");
+		$("#blue").css("opacity","1");;
+	}	
+});
+$("#anabtn").click(function(){
+	if(selectedColor == "bg"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#blueViolet").css("opacity","1");
+		$("#blueGreen").css("opacity","1");
+		$("#blue").css("opacity","1");
+	}
+	else if (selectedColor == "b"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#blueViolet").css("opacity","1");
+		$("#blueGreen").css("opacity","1");
+		$("#blue").css("opacity","1");
+	}	
+	else if (selectedColor == "bv"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#blueViolet").css("opacity","1");
+		$("#blueGreen").css("opacity","1");
+		$("#blue").css("opacity","1");;
+	}	
+});
+$("#anabtn").click(function(){
+	if(selectedColor == "b"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#blueViolet").css("opacity","1");
+		$("#violet").css("opacity","1");
+		$("#blue").css("opacity","1");
+	}
+	else if (selectedColor == "bv"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#blueViolet").css("opacity","1");
+		$("#violet").css("opacity","1");
+		$("#blue").css("opacity","1");
+	}	
+	else if (selectedColor == "v"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#blueViolet").css("opacity","1");
+		$("#violet").css("opacity","1");
+		$("#blue").css("opacity","1");;
+	}	
+});
+$("#anabtn").click(function(){
+	if(selectedColor == "bv"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#blueViolet").css("opacity","1");
+		$("#violet").css("opacity","1");
+		$("#redViolet").css("opacity","1");
+	}
+	else if (selectedColor == "v"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#blueViolet").css("opacity","1");
+		$("#violet").css("opacity","1");
+		$("#redViolet").css("opacity","1");
+	}	
+	else if (selectedColor == "rv"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#blueViolet").css("opacity","1");
+		$("#violet").css("opacity","1");
+		$("#redViolet").css("opacity","1");;
+	}	
+});
+$("#anabtn").click(function(){
+	if(selectedColor == "v"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#red").css("opacity","1");
+		$("#violet").css("opacity","1");
+		$("#redViolet").css("opacity","1");
+	}
+	else if (selectedColor == "rv"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#red").css("opacity","1");
+		$("#violet").css("opacity","1");
+		$("#redViolet").css("opacity","1");
+	}	
+	else if (selectedColor == "r"){
+		$("#wheelSVG path").css("opacity",".1");
+		$("#red").css("opacity","1");
+		$("#violet").css("opacity","1");
+		$("#redViolet").css("opacity","1");;
 	}	
 });
 //$("#compbtn").click(function(){

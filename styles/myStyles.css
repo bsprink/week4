@@ -1,5 +1,13 @@
-h1{
+body{
+	background-image: url(../images/shavings.jpg);
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: auto;
+
+}
+#text{
 	text-align: center;
+	font-size: 50px;
 }
 .st0{fill:#662D91;}
 .st1{fill:#9E005D;}
@@ -15,8 +23,8 @@ h1{
 .st11{fill:#1B1464;}
 
 #wheel{
-	height: 600px;
-	width: 600px;
+	height: 500px;
+	width: 500px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -153,6 +161,29 @@ h1{
 	color: #EEE
 }
 #anabtn:active{
+	background-color: #555;
+	color: yellow;
+}
+#resetBtn{
+	border-radius: 100px;
+	height: 50px;
+	background-color: #EEE;
+	color: #444;
+	width: 50px;
+	text-align: center;
+	font-size: 10px;
+	line-height: 50px;
+	font-family: helvetica;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-right: auto;
+	margin-left: auto;
+}
+#resetBtn:hover{
+	background-color: #444;
+	color: #EEE
+}
+#resetBtn:active{
 	background-color: #555;
 	color: yellow;
 }
